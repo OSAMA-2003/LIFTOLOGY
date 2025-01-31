@@ -109,14 +109,7 @@ function Home() {
 
 
 
- {/* Brands Container */}
-<div className="w-full bg-[#a30d0a] flex items-center justify-between flex-wrap py-1 lg:px-28">
-  {/* Brands Images */}
-  <img src={brand1} className="w-[65px] p-[10px] md:w-[120px] " />
-  <img src={brand2} className="w-[65px] p-[10px] md:w-[120px] " />
-  <img src={brand3} className="w-[65px] p-[10px] md:w-[120px] " />
-  <img src={brand4} className="w-[65px] p-[10px] md:w-[120px] " />
-</div>
+
 
 
 
