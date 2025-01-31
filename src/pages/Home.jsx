@@ -23,11 +23,11 @@ function Home() {
     <>
       <header className="pt-40 w-full flex h-fit justify-center bg-cover bg-center overflow-hidden">
         <div
-          className="flex items-center w-full lg:items-end justify-between px-20"
+          className="flex items-center w-full lg:items-end justify-between  md:px-20"
           id="home"
         >
           {/* Content Section */}
-          <div className=" w-full flex flex-col gap-8  md:w-[40%] ">
+          <div className=" w-full flex flex-col gap-8 px-5  md:w-[40%] ">
             <motion.h1
               variants={motionContainer(0.1)}
               initial="hidden"
@@ -49,7 +49,7 @@ function Home() {
               variants={motionContainer(0.2)}
               initial="hidden"
               animate="visible"
-              className="text-white text-center md:px-20 text-opacity-30"
+              className="text-white text-center  md:px-20 text-opacity-30"
             >
               where fitness meets inspiration, and every drop of sweat tells a
               story of determination

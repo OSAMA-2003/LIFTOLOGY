@@ -51,7 +51,7 @@ function Services() {
         them and choose whichever you want.
       </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-5 p-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-10 p-7 md:p-10">
         {cards.map((card, index) => (
           <motion.div
             key={card.id}
@@ -60,7 +60,7 @@ function Services() {
             whileInView="visible"
             viewport={{ once: true, amount: 0.5 }} 
             transition={{ delay: index * 0.5 }}
-            className="backdrop-blur-md backdrop-saturate-150 bg-[rgba(40,17,17,0.25)] rounded-xl border border-[rgba(227,38,38,0.125)] p-6 filter drop-shadow-[0.5px_0.5px_10px_rgba(255,0,0,0.612)] flex flex-col items-center justify-center text-center"
+            className="backdrop-blur-md  backdrop-saturate-150 bg-[rgba(40,17,17,0.25)] rounded-xl border border-[rgba(227,38,38,0.125)] p-6 filter drop-shadow-[0.5px_0.5px_10px_rgba(255,0,0,0.612)] flex flex-col items-center justify-center text-center"
           >
             <div className="w-full h-full">
               <div
