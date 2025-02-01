@@ -117,7 +117,7 @@ const Exercises = () => {
               <h2 className="text-3xl text-white font-bold uppercase">{ex}</h2>
               <Link to={`/exercise/${ex}`}>
               <motion.button
-                className="mt-4 px-6 py-2 bg-red-600 text-white font-semibold rounded-lg shadow-md"
+                className="mt-4 btn"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
               >
