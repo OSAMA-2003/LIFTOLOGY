@@ -1,7 +1,12 @@
 import { motion } from "framer-motion";
 import aboutImage from "../assets/fitness_logo.png";
+import { useEffect } from "react";
 
 const About = () => {
+   useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+    
   return (
     <div className="min-h-screen flex items-center justify-center  text-white mt-10 py-12 px-6">
       <motion.div
